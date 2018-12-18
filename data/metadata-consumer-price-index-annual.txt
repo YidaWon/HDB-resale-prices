@@ -1,0 +1,122 @@
+# Metadata for Consumer Price Index, Annual
+---
+Identifier: 'bccbcf10-a6da-44c3-96a6-a496ada7452c'
+Name: 'consumer-price-index-annual'
+Title: 'Consumer Price Index, Annual'
+Description: 'The CPI is designed to measure the average price changes in a fixed
+  basket of consumption goods and services commonly purchased by the resident households
+  over time. It is commonly used as a measure of consumer price inflation. The Base
+  Year is 2014.'
+Topics:
+  - 'Economy'
+Keywords:
+  - 'CPI'
+  - 'inflation'
+  - 'prices'
+Publisher:
+  Name: 'Ministry of Trade and Industry - Department of Statistics'
+  Admin 1:
+    Name: 'SingStat Info'
+    Department: 'Statistics Information Services'
+    Email: 'info@singstat.gov.sg'
+Sources:
+  - 'Ministry of Trade and Industry - Department of Statistics'
+Source Url: 'http://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=6763&exportType=csv'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '1961-01-01 to 2017-12-31'
+Last Updated: '2018-12-12T17:47:46.060392'
+Resources:
+  -
+    Identifier: '88f3fe54-92b7-446e-bd58-a466058dcdca'
+    Title: 'Consumer Price Index, Base Year 2014 = 100, Annual'
+    Url: 'https://storage.data.gov.sg/consumer-price-index-annual/resources/consumer-price-index-base-year-2014-100-annual-2018-12-12T17-46-33Z.csv'
+    Format: 'CSV'
+    Coverage: '1961-01-01 to 2017-12-31'
+    Last Updated: '2018-12-12T17:46:33.219447'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'level_1'
+        Title: 'All Items'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'value'
+        Title: 'Value'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Index'
+        Description: '"na" : Data not available or not applicable'
+  -
+    Identifier: '0a35d11d-0752-4423-8ac6-924ecb6c3bcf'
+    Title: 'Consumer Price Index at Division Level, Base Year 2014 = 100, Annual'
+    Url: 'https://storage.data.gov.sg/consumer-price-index-annual/resources/consumer-price-index-at-division-level-base-year-2014-100-annual-2018-12-12T17-47-09Z.csv'
+    Format: 'CSV'
+    Coverage: '1961-01-01 to 2017-12-31'
+    Last Updated: '2018-12-12T17:47:09.430464'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'level_1'
+        Title: 'All Items'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'level_2'
+        Title: 'Division'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'value'
+        Title: 'Value'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Index'
+        Description: '"na" : Data not available or not applicable'
+  -
+    Identifier: '1f850626-19ef-40e0-ac58-ad9970cacbeb'
+    Title: 'Consumer Price Index at Group Level, Base Year 2014 = 100, Annual'
+    Url: 'https://storage.data.gov.sg/consumer-price-index-annual/resources/consumer-price-index-at-group-level-base-year-2014-100-annual-2018-12-12T17-47-45Z.csv'
+    Format: 'CSV'
+    Coverage: '1961-01-01 to 2017-12-31'
+    Last Updated: '2018-12-12T17:47:45.384608'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'level_1'
+        Title: 'All Items'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'level_2'
+        Title: 'Division'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'level_3'
+        Title: 'Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'value'
+        Title: 'Value'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Index'
+        Description: '"na" : Data not available or not applicable'
